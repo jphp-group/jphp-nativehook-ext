@@ -1,0 +1,33 @@
+name: nativehook
+version: 1.0.4
+
+plugins:
+- Hub
+- Doc
+- Gradle
+
+deps:
+  jphp-runtime: '*'
+
+devDeps:
+  jphp-core: '*'
+
+sources:
+- src
+
+hub:
+  login: broelik@gmail.com
+
+config:
+  ignore:
+  - /sandbox/**
+  - /.idea/**
+  - /*.iml
+  - /.git/**
+  - /examples/**
+  - /package.hub.yml
+  
+
+gradle:
+  deps:
+  - com.1stleg:jnativehook:2.0.2
