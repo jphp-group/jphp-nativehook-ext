@@ -7,7 +7,12 @@ import php.runtime.annotation.Reflection;
 import php.runtime.env.Environment;
 import php.runtime.memory.LongMemory;
 import php.runtime.reflection.ClassEntity;
+import php.runtime.annotation.Reflection;
+import org.develnext.jphp.ext.nativehook.NativeHookExtension;
 
+@Reflection.Namespace(NativeHookExtension.NS)
+@Reflection.Name("NativeMouseWheelEvent")
+@Reflection.Abstract
 public class NativeMouseWheelEventWrapper extends NativeMouseEventWrapper<NativeMouseWheelEvent>{
 	public NativeMouseWheelEventWrapper(Environment env, NativeMouseWheelEvent wrappedObject){
 		super(env, wrappedObject);
