@@ -4,7 +4,7 @@ NativeHook for jphp.
 
 ## Install
 ```
-jppm add nativehook@1.0.4
+jppm add nativehook
 ```
 ## Examples
 ```php
@@ -22,7 +22,7 @@ $hook->on('mouseDown', function(NativeMouseEvent $e){
 $hook->on('keyUp', function(NativeKeyEvent $e){
     echo "Key {$e->key} is released\n";
 });
-$hook->on('mouseWheel', function(NativeMouseWheelEven $e){
+$hook->on('mouseWheel', function(NativeMouseWheelEvent $e){
     echo "Mouse wheel\n";
 });
 
