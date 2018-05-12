@@ -30,5 +30,7 @@ $hook->start();
 ...
 $hook->stop();
 ```
+## Bundle for develnext
+[download](https://github.com/jphp-group/jphp-nativehook-ext/releases/download/1.0.6/nativehook.dnbundle)
 ## API Documentation
 [api-docs](api-docs/).
