@@ -9,7 +9,7 @@ interface NativeKeyListener{
      * @param NativeKeyEvent $event
      * @return void
      */
-    public function nativeKeyPressed($event);
+    public function nativeKeyPressed(NativeKeyEvent $event);
     /**
      * @param NativeKeyEvent $event
      * @return void

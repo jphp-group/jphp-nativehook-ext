@@ -26,6 +26,10 @@ config:
   - /.git/**
   - /examples/**
   - /package.hub.yml
+  - /bundle/**
+  - /src-bundle/**
+  - /README.MD
+  - /.gitignore
   
 
 gradle:

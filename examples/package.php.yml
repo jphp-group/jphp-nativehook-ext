@@ -1,0 +1,12 @@
+name: examples
+version: 1.0.0
+deps:
+  jphp-core: '*'
+  jphp-zend-ext: '*'
+  nativehook: '*'
+plugins:
+- App
+sources:
+- src
+includes:
+- index.php
